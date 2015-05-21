@@ -1,14 +1,14 @@
 # Elk
 
-##Introduction
+###Introduction
 
-### What is it?
+#### What is it?
 Windows Event Log Querying Utility
 
-### How do I use it?
-Well, ideally 
+#### How do I use it?
+*To be completed later*
 
-### What does it support?
+#### What does it support?
 * Querying Windows Event Logs
 * Configuration on an "opt-in" basis via your app.config or web.config
 * Remote Event Logs
@@ -17,20 +17,28 @@ Well, ideally
 	* Time Ago (ex. in the last 2 days)
 	* Built-in Log Levels
 
-### What doesn't it support?
+#### What doesn't it support?
 * Remote user authentication
 * Custom Log Levels
 * Filtering:
 	* Log Contents
 
-### Why the name?
+#### Why the name?
 Event Log Viewer => Elv (huh?) => Elves (nah) => Elk (works for me)
 
-## Putting it to Use
+### Putting it to Use
 *To be completed later*
 
-## Future Plans
+### Future Plans
 * Easy MVC Integration
 * Filtering by log contents via the above
 
 (there are no current plans for remote user authentication)
+
+
+### Inside the Code
+#### Projects
+
+* Elk - the core application
+* Elk.Black - a sample console app
+* Elk.Tests - a sparse testing project
